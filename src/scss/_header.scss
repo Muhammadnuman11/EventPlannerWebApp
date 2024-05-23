@@ -1,0 +1,33 @@
+
+.navbar{
+    background: rgba(255, 255, 255, 0.3) !important;
+    // background: rgb(252, 184, 149) !important;
+    font-family: 'Baloo Bhai 2', cursive;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        li{
+            margin: 0 10px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}

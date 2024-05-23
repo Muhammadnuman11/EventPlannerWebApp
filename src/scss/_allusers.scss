@@ -1,0 +1,21 @@
+.allusers {
+    background-color: #bbdddcde;
+    min-height: 91vh;
+    padding: 100px 0;
+
+    h1 {
+        font-family: 'Days One', sans-serif;
+        color: $info;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+    .card{
+        border: none;
+        background-color: #89b8b6b7;
+    }
+
+    .table{
+        box-shadow: 1px 1px 5px black;
+    }
+}

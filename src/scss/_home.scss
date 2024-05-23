@@ -1,0 +1,32 @@
+.coverImg{
+    width: 100%;
+    height: 100vh;
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about{
+    h1{
+        color: $info;
+        font-family: 'Days One', sans-serif;
+        font-size: 48px;
+    }
+    .para{
+        font-family: 'Baloo Bhai 2', cursive;
+        font-weight: 500;
+        font-size: 17px;
+        width: 80%;
+    }
+
+    .aboutImg{
+        width: 500px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

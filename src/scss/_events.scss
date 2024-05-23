@@ -1,0 +1,44 @@
+.events {
+    background-color: #c3c3c363;
+    min-height: 91vh;
+    padding-top: 100px !important;
+
+    h1 {
+
+        button {
+            font-family: 'Days One', sans-serif;
+            color: $info;
+            letter-spacing: 1.5px;
+        }
+    }
+
+    .cardImg {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+.addevents {
+    background: url("https://images.unsplash.com/photo-1574155376612-bfa4ed8aabfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY0fHxldmVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        font-family: 'Days One', sans-serif;
+        color: $info;
+        letter-spacing: 1.5px;
+    }
+
+    .card {
+        background: #00000063;
+        border: none;
+    }
+
+    input,
+    textarea {
+        border: none;
+        background: #ffffff9d;
+    }
+}
